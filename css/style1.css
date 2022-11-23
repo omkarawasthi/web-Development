@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* # NAVIGATION CSS*/
+#navbar {
+    display: flex;
+    background-color: white;
+    height: 50px;
+} 
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar #logo {
+    margin: 15px;
+    margin-left: 29px;
+    margin-top: 19px;
+}
+
+#navbar #logo a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+#navbar #logo a:hover {
+    background-color: rgb(168, 166, 166);
+    border-radius: 10px;
+}
+
+#navbar .navigation {
+    margin: 9px;
+}
+
+#navbar .navigation li a {
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar .navigation li a:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+#navbar ul li {
+    position: relative;
+    left: 850px;
+    padding: 12px;
+    width: 60px;
+    list-style: none;
+}
+
+ /* HEADER SECTION CSS*/
+#home {
+    font-size: 33px;
+    height: 400px;
+} 
+
+#home .hprimary {
+    margin-left: 22px;
+    position: relative;
+    top: 590px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('/img/hamburger.jpg') no-repeat center center/cover;
+    height: 650px;
+    margin-top: 10px;
+    width: 1530px;
+    z-index: -1;
+    opacity: 1;
+}
+
+#content #cont{
+    display: flex;
+    margin-top: 330px;
+    margin-left: 200px;
+}
+#content #cont .con2 h1{
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+#content #cont .con1 img{
+    border-radius: 16px;
+    opacity: 0.7;
+}
+#content #cont .con2 h2{
+    margin-left: 202px;
+    font-size: 30px;
+}
+
+#content #cont .con2 p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 19px;
+}
+
+    /* Another part */
+
+#menu {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#menu #menu2 .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu #menu2 h1{
+    font-size: 35px;
+}
+
+#menu #menu2 .para{
+    margin-top:13px;
+}
+
+#menu #menu2 .main1{
+    margin-top: 35px;
+}
+
+#menu  .img{
+    margin-left: 35px;
+}
+
+/* Contact CSS */
+#contact{
+    margin-left: 145px;
+}
+
+#contact .heading{
+    margin-top: 70px;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+#contact .para{
+    font-size: 18px;
+    color: rgb(69, 69, 69);
+    margin-bottom: 20px;
+}
+
+#contact .para1{
+    margin-bottom: 25px;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Navigation Bar logo*/
+#logo {
+    margin: 3px;
+}
+
+/* Navigation Bar logo and Img*/
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* Home Section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(/img/hd-wallpaper-gac51f9831_1920.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#home .btn {
+    margin: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#home .btn:hover {
+    background-color: brown;
+}
+
+/* Utility Classes*/
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
